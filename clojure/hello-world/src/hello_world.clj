@@ -2,4 +2,4 @@
 
 (defn hello
   ([] (hello "World"))
-  ([arg] (println (str "Hello, " arg "!"))))
+  ([arg] (str "Hello, " arg "!")))
